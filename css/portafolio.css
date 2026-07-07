@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 56px;
+}
+
+.seccion-gris {
+    background-color: #f7f8fa;
+}
+
+.titulo-seccion {
+    position: relative;
+}
+
+.titulo-seccion::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #0d6efd;
+    margin: 12px auto 0;
+}
+
+
+.seccion-hero {
+    padding-top: 110px;
+    padding-bottom: 70px;
+    background-color: #ffffff;
+}
+
+.foto-perfil {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f0f0f0;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+
+.tarjeta-habilidad {
+    transition: transform 0.15s ease;
+}
+
+.tarjeta-habilidad:hover {
+    transform: translateY(-4px);
+}
+
+
+.tarjeta-proyecto {
+    transition: transform 0.15s ease;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-4px);
+}
+
+
+.btn-subir {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn-subir.mostrar {
+    display: flex;
+}
