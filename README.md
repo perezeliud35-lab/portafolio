@@ -43,7 +43,8 @@ Portafolio personal de una sola página hecho con HTML, CSS y Bootstrap 5, para 
 
 
 ## Capturas de pantalla
-
+<img width="1903" height="905" alt="image" src="https://github.com/user-attachments/assets/f5270df7-c5d7-4d00-8cc5-7338ad4d91ea" />
+<img width="987" height="737" alt="image" src="https://github.com/user-attachments/assets/1ef5e763-cc61-49ba-ad0f-b78338755dc2" />
 
 
 ## Autor
